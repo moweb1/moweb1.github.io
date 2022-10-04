@@ -65,7 +65,7 @@ p {
 }
 
 .item, img {
-    max-width: 18vw;
+    height: 18vh;
 }
 
 .item {
