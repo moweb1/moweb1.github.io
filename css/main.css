@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Roboto-Mono;
+    src: url(./RobotoMono-VariableFont_wght.ttf);
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    font-family: Roboto-Mono, monospace;
+    font-weight: 300;
+    color: black;
+}
+
+.columns {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rows {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(60, 57, 233) 0%, rgb(38, 116, 180) 41%, rgb(255, 0, 149) 100%); 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-screen {
+    margin: 0;
+    min-width: 28em;
+    max-width: 80vw;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 6px;
+    padding: 0.4em;
+    padding-top: 1.85em;
+    box-shadow: 0 0 5px 0.2em rgba(255, 255, 255, 0.4);;
+}
+
+#headline-text {
+    font-size: 2.1em;
+    font-weight: 300;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+.items-grid {
+    margin-top: 2.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.item, img {
+    max-width: 18vw;
+}
+
+.item {
+    margin-right: 0.21em;
+    margin-left: 0.21em;
+}
+
+.link {
+    font-size: 1.4em;
+    color: black;
+}
+
+.hidden {
+    display: none;
+}
