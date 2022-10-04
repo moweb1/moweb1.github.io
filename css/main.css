@@ -78,6 +78,10 @@ p {
     color: black;
 }
 
+#page-source {
+    margin-top:1em;
+}
+
 .hidden {
     display: none;
 }
